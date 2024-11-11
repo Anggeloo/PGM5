@@ -13,7 +13,6 @@ This repository contains a simple web application developed with Flask, which di
 - **Python**: Programming language used to develop the application.
 - **Flask**: Python web framework used to create the application.
 - **Waitress**: WSGI server used to run the Flask application.
-- **HTML/JavaScript**: Languages ​​used to create the web user interface.
 
 ## Requirements
 
