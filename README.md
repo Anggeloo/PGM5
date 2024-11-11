@@ -56,12 +56,12 @@ You can also run the application in a containerized environment using Docker:
 
 1. Build the Docker image:
 ```
-docker build -t pg5-app .
+docker build -t pgm5 .
 ```
 
 2. Run the container:
 ```
-docker run -p 8080:8080 pg5-app
+docker run -p 8080:8080 pgm5
 ```
 
 The application will run at `http://localhost:8080`.
