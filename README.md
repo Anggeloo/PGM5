@@ -48,7 +48,7 @@ pip install -r requirements.txt
 python PGM5.py
 ```
 
-The application will run at `http://127.0.0.1:8080` and will automatically open in your default web browser.
+The application will run at http://127.0.0.1:8080 and will automatically open in your default web browser.
 
 ## Using Docker
 
@@ -64,15 +64,15 @@ docker build -t pgm5 .
 docker run -p 8080:8080 pgm5
 ```
 
-The application will run at `http://localhost:8080`.
+The application will run at http://localhost:8080.
 
 ## Accessing the deployed application on Render
 
 1. Open your web browser.
 2. Visit the following URL:
-```
+
 https://pgm5.onrender.com
-```
+
 3. You will see the Flask application displaying a counter that you can increment by clicking the button.
 
 ## Project structure
