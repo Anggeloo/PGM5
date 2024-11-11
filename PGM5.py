@@ -31,4 +31,4 @@ def open_browser():
 if __name__ == '__main__':
     from waitress import serve
     Timer(1.5, open_browser).start()
-    serve(app, host="127.0.0.1", port=8080)
+    serve(app, host="0.0.0.0", port=8080)
